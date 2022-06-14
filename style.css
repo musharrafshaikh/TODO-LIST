@@ -1,0 +1,107 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+
+ body{
+    background-color: rgb(194, 239, 89);
+    background-position: center;
+    height: 100%;
+ }
+ #todos{
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+ }
+ #todos > .heading{
+    margin-bottom: 30px;
+    text-align: center;
+ }
+ #todos > .heading > h1{
+    display: inline-block;
+    position: relative;
+    font-size: 2.5rem;
+    font-family: cursive;
+    color: rgb(9, 9, 9);
+ }
+ #todos > .todo-input-container{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+ }
+ #todos > .todo-input-container >.todo-input{
+    width: 100%;
+    height: 40px;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    border-radius: 10px;
+ }
+ #todos > .todo-input-container >.add-item{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(12, 6, 18);
+    margin-left: 10px;
+    font-size: 1.3rem;
+    border-radius: 6px;
+    color:rgb(178, 242, 179);
+    cursor: pointer;
+ }
+ #todos > .todo-input-container >.deleteBtn{
+   position: absolute;
+   width: 40px;
+   height: 40px;
+   background-color: rgb(12, 6, 18);
+   color: rgb(178, 242, 179);
+   margin-left: 60px;
+   font-size: 1.3rem;
+   border-radius: 6px;
+   cursor: pointer;
+}
+#todos >.todo-list-container{
+ 
+   width: 620px;
+   margin-top: 15px;
+   list-style-type:none;
+  
+}
+#todos >.todo-list-container .todo-list{
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+#todos >.todo-list-container .todo-list .todo-item{
+   width: 100%;
+   border: 2px solid black;
+   background-color: white;
+   border-radius: 0px;
+   color: black;
+   height: 40px;
+   line-height: 40px;
+   padding: 0 10px;
+}
+#todos >.todo-list-container .todo-list .button{
+   position: absolute;
+  right: 0;
+}
+#todos >.todo-list-container .todo-list .button button{
+   width: 40px;
+   height: 40px;
+   margin-left: 5px;
+   background-color: black;
+   color: rgb(115, 241, 117);
+}
+
+
+
+
+
+
+
+
